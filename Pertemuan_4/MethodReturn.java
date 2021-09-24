@@ -1,24 +1,31 @@
+package com.program;
+
 public class MethodReturn {
-
-  // tipe data method juga harus sama dengan apa yang direturn di dalamnya
-  static double nilaiTugas(int x) {
-    double nilai = 0.2 * x;
-    return nilai;
-  }
-
-  public static void main(String[] args) {
-    // Cara 1
-    System.out.println("Nilai = " + nilaiTugas(80));
-
-    // Cara 2
-    double nilai;
-    nilai = nilaiTugas(80);
-    System.out.println("Nilai = " + nilai);
-
-    // Cara 3
-    if(nilaiTugas(80) > 15) {
-      System.out.println("Anda Lulus");
+    public static void main(String[] args) {
+        // y = (x + 2) * x
+        
+        int x, y;
+        x = 10;
+        y = count(x);
+        
+        System.out.println("x = " + x + ", " + "y = " + y);
+        
+        x = 30;
+        y = count(x);
+        
+        System.out.println("x = " + x + ", " + "y = " + y);
+        
+        x = 50;
+        y = count(x);
+        
+        System.out.println("x = " + x + ", " + "y = " + y);
     }
-  }
+    
+    static int count(int input) {
+        int hasil;
+        
+        hasil = (input + 2) * input;
+//        hasil = input * input;
+        return hasil;
+    }
 }
-
