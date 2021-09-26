@@ -1,7 +1,5 @@
-package com.program;
-
 import java.util.Scanner;
-//import java.lang.String;
+import java.lang.String;
 
 public class nestedRecursive {
     public static void main(String[] args) {
