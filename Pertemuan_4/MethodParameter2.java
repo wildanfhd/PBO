@@ -1,4 +1,4 @@
-public class MethodReturn {
+public class MethodParameter2 {
     public static void main(String[] args) {
         // y = (x + 2) * x
         
