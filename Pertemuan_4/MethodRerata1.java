@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MethodRerata {
+public class MethodRerata1 {
 
   // Deklarasi method
   static void rerata() {
