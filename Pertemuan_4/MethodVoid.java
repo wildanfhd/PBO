@@ -1,5 +1,3 @@
-package com.program;
-
 public class MethodVoid {
     public static void main(String[] args) {
         
@@ -15,6 +13,8 @@ public class MethodVoid {
         System.out.println("Selamat malam " + input);
     }
     
+    // Ini adalah method void atau method yang tidak mengembalikan nilai
+    // tidak ada operasi atau kalkulasi di dalamnya
     private static void voidFunction(String input) {
         System.out.println(input);
     }
