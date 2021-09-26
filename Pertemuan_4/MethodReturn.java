@@ -1,5 +1,3 @@
-package com.program;
-
 public class MethodReturn {
     public static void main(String[] args) {
         // y = (x + 2) * x
