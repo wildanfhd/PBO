@@ -1,4 +1,4 @@
-public class MethodRecursion {
+public class MethodRecursive1 {
 
 	public static void main(String[] args) {
     // Saat function sum dipanggil, itu membuat parameter k ke dalam jumlah seluruh angka yang lebih kecil dari x dan mengembalikan nilainya.
