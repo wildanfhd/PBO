@@ -1,3 +1,3 @@
 # PBO
-Ini adalah folder Pemrograman Berorientasi Objek
+Ini adalah folder untuk Pemrograman Berorientasi Objek  
 lang : java
